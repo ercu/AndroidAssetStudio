@@ -21,9 +21,9 @@ import {BaseGenerator} from './BaseGenerator';
 const ICON_SIZE = { w: 48, h: 48 };
 
 const TARGET_RECTS_BY_SHAPE = {
-  none: { x:  3, y:  3, w:  42, h:  42 },
-  circle: { x:  2, y:  2, w:  44, h:  44 },
-  square: { x:  5, y:  5, w:  38, h:  38 },
+  none: { x:  0, y:  0, w:  48, h:  48 },
+  circle: { x:  0, y:  0, w:  48, h:  48 },
+  square: { x:  0, y:  0, w:  48, h:  48 },
   vrect: { x:  8, y:  2, w:  32, h:  44 },
   hrect: { x:  2, y:  8, w:  44, h:  32 },
 };
