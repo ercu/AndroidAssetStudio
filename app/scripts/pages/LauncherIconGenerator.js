@@ -22,8 +22,8 @@ const ICON_SIZE = { w: 48, h: 48 };
 
 const TARGET_RECTS_BY_SHAPE = {
   none: { x:  0, y:  0, w:  48, h:  48 },
-  circle: { x:  0, y:  0, w:  48, h:  48 },
-  square: { x:  0, y:  0, w:  48, h:  48 },
+  circle: { x:  2, y:  2, w:  44, h:  44 },
+  square: { x:  2, y:  2, w:  44, h:  44 },
   vrect: { x:  8, y:  2, w:  32, h:  44 },
   hrect: { x:  2, y:  8, w:  44, h:  32 },
 };
@@ -87,7 +87,7 @@ export class LauncherIconGenerator extends BaseGenerator {
         }),
         (backColorField = new studio.ColorField('backColor', {
           title: 'Background color',
-          defaultValue: '#448aff'
+          defaultValue: 'rgba(0, 0, 0, 0)'
         })),
         new studio.BooleanField('crop', {
           title: 'Scaling',
